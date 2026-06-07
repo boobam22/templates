@@ -1,0 +1,21 @@
+{
+  "name": "${PROJECT_NAME}",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "cf-typegen": "wrangler types",
+    "lint": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.8.3",
+    "typescript": "5.9.3",
+    "wrangler": "4.97.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "semi": false
+  }
+}
