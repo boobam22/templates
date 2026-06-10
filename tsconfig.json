@@ -8,6 +8,9 @@
     "strict": true,
 
     "skipLibCheck": true,
-    "types": ["./worker-configuration.d.ts"]
+    "types": ["./worker-configuration.d.ts"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
