@@ -21,4 +21,4 @@ done
 git init
 git add .
 git commit -m "init"
-git remote add origin "git@github.com:bobam22/$PROJECT_NAME.git"
+git remote add origin "git@github.com:boobam22/$PROJECT_NAME.git"
