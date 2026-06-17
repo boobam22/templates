@@ -2,16 +2,22 @@
   "name": "${PROJECT_NAME}",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "cf-typegen": "wrangler types",
-    "lint": "prettier --write ."
+    "check": "tsc --noEmit",
+    "lint": "prettier --write .",
+    "test": "vitest run"
   },
+  "dependencies": {},
   "devDependencies": {
-    "prettier": "3.8.3",
-    "typescript": "5.9.3",
-    "wrangler": "4.97.0"
+    "@cloudflare/vitest-pool-workers": "0.16.16",
+    "prettier": "3.8.4",
+    "typescript": "6.0.3",
+    "vitest": "4.1.9",
+    "wrangler": "4.101.0"
   },
   "prettier": {
     "printWidth": 120,

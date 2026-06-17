@@ -2,7 +2,7 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "${PROJECT_NAME}",
   "main": "src/index",
-  "compatibility_date": "2026-06-03",
+  "compatibility_date": "2026-06-16",
   "observability": {
     "enabled": true,
   },
