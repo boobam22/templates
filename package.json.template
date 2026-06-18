@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "cf-typegen": "wrangler types",
+    "types": "wrangler types --include-runtime=false worker-env.d.ts",
     "check": "tsc --noEmit",
     "lint": "prettier --write .",
     "test": "vitest run"

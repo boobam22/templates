@@ -8,7 +8,7 @@
     "strict": true,
 
     "skipLibCheck": true,
-    "types": ["./worker-configuration.d.ts"],
+    "types": ["./worker-runtime.d.ts", "./worker-env.d.ts"],
     "paths": {
       "@/*": ["./src/*"]
     }
